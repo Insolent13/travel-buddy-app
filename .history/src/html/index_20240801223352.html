@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Погнали</title>
+	<link rel="stylesheet" href="./css/main.css" />
+
+	<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+	<link rel="preload" href="fonts/bloggersans.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="fonts/bloggersans.woff" as="font" type="font/woff">
+    <link rel="preload" href="fonts/bloggersans-medium.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="fonts/bloggersans-medium.woff" as="font" type="font/woff">
+    <link rel="preload" href="fonts/bloggersans-bold.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="fonts/bloggersans-bold.woff" as="font" type="font/woff">
+    <link rel="preload" href="fonts/bloggersans-light.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="fonts/bloggersans-light.woff" as="font" type="font/woff">
+</head>
+
+<body class="page__body">
+	<header class="page-header page-header--open">
+		<div class="wrapper page-header__wrapper">
+			<a class="logotype page-header__logotype">
+				<div class="logotype__header logotype__header--open page-header__img page-header__img--menu">
+					<picture>
+						<source type="image/webp" media="(min-width: 1440px)" srcset="img/pognali-logotype-desktop-blue.webp 1x, img/pognali-logotype-desktop-blue@2x.webp 2x">
+				<source type="image/webp" media="(min-width: 768px)" srcset="img/pognali-logotype-tablet-blue.webp 1x, img/pognali-logotype-tablet-blue@2x.webp 2x">
+				<source type="image/webp" srcset="img/pognali-logotype-mobile-blue.webp 1x, img/pognali-logotype-mobile-blue@2x.webp 2x">
+				<source media="(min-width: 1440px)" srcset="img/pognali-logotype-desktop-blue.png 1x, img/pognali-logotype-desktop-blue@2x.png 2x">
+				<source media="(min-width: 768px)" srcset="img/pognali-logotype-tablet-blue.png 1x, img/pognali-logotype-tablet-blue@2x.png 2x">
+				<img class="logotype__img" src="img/pognali-logotype-mobile-blue.png" srcset="img/pognali-logotype-mobile-blue@2x.png 2x" width="100" height="15" alt="Погнали - сервис для поиска попутчиков">
+			  </picture>
+			</div>
+			<div class="logotype__header logotype__header--default page-header__img page-header__img--default">
+			  <picture>
+				<source type="image/webp" media="(min-width: 1440px)" srcset="img/pognali-logotype-desktop-white.webp 1x, img/pognali-logotype-desktop-white@2x.webp 2x">
+				<source type="image/webp" media="(min-width: 768px)" srcset="img/pognali-logotype-tablet-white.webp 1x, img/pognali-logotype-tablet-white@2x.webp 2x">
+				<source type="image/webp" srcset="img/pognali-logotype-mobile-white.webp 1x, img/pognali-logotype-mobile-white@2x.webp 2x">
+				<source media="(min-width: 1440px)" srcset="img/pognali-logotype-desktop-white.png 1x, img/pognali-logotype-desktop-white@2x.png 2x">
+				<source media="(min-width: 768px)" srcset="img/pognali-logotype-tablet-white.png 1x, img/pognali-logotype-tablet-white@2x.png 2x">
+				<img class="logotype__img" src="img/pognali-logotype-mobile-white.png" srcset="img/pognali-logotype-mobile-white@2x.png 2x" width="96" height="15" alt="Погнали - сервис для поиска попутчиков">
+			  </picture>
+			</div>
+		  </a>
+		  <button class="page-header__toggle page-header__toggle--hidden" type="button" aria-label="Открыть меню"></button>
+		  <nav class="page-header__main-navigation">
+			<ul class="site-list">
+			  <li class="site-list__item">
+				<a href="#" class="site-list__link page-header__link">
+				  <span data-hover="О сервисе">О сервисе</span>
+				</a>
+			  </li>
+			  <li class="site-list__item">
+				<a href="form.html" class="site-list__link page-header__link">
+				  <span data-hover="Направления">Направления</span>
+				</a>
+			  </li>
+			  <li class="site-list__item">
+				<a href="catalog.html" class="site-list__link page-header__link">
+				  <span data-hover="Попутчики">Попутчики</span>
+				</a>
+			  </li>
+			</ul>
+		  </nav>
+		  <a class="btn btn--oval btn--yellow page-header__login" href="login.html" title="Войти в личный кабинет">Авторизация</a>
+		  <div class="for-user for-user--header page-header__for-user">
+			<a href="tel:88005558628" class="for-user__link page-header__contacts page-header__contacts--phone">
+			  <span class="for-user__value">8 800 555-86-28</span>
+			</a>
+			<a href="mailto:mail@htmlacademy.ru" class="for-user__link page-header__contacts page-header__contacts--email">
+			  <span class="for-user__value">mail@htmlacademy.ru</span>
+			</a>
+		  </div>
+		  <ul class="social page-header__social">
+			<li class="social__item">
+			  <a href="#" class="social__link social__link--white social__link--facebook">
+				<span class="visually-hidden">Наша страница в facebook</span>
+			  </a>
+			</li>
+			<li class="social__item">
+			  <a href="#" class="social__link social__link--white social__link--vk">
+				<span class="visually-hidden">Мы вконтакте</span>
+			  </a>
+			</li>
+			<li class="social__item">
+			  <a href="#" class="social__link social__link--white social__link--instagram">
+				<span class="visually-hidden">Наш профиль в instagram</span>
+			  </a>
+			</li>
+		  </ul>
+		</div>
+	  </header>
+	<main>
+	</main>
+	@@include('blocks/footer.html')
+	<script src="./js/index.bundle.js"></script>
+</body>
+
+</html>
